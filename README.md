@@ -17,6 +17,6 @@
 3. 初始化`ChatCell`，设置`Label`，并根据`Users.plist`中数据创建`imageView`，设置`image`。  
 ![](http://7i7io5.com1.z0.glb.clouddn.com/tableviewcustom5.png)
 4. 在头文件`ChatCell.h`中声明供外部使用的两个方法  
-![](http://7i7io5.com1.z0.glb.clouddn.com/tableviewcustom7.png)
+![](http://7i7io5.com1.z0.glb.clouddn.com/tableviewcustom7.png)  
 ###### 三、利用自定义单元格ChatCell完成自定义表格，并加入点击手势。  
 ![](http://7i7io5.com1.z0.glb.clouddn.com/tableviewcustom6.png)
