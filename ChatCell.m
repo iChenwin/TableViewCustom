@@ -7,6 +7,7 @@
 //
 
 #import "ChatCell.h"
+
 @interface ChatCell ()
 @property NSUInteger numofPic;
 @property NSUInteger numPerRow;
@@ -55,16 +56,16 @@
     return self;
 }
 
+-(NSUInteger) getHeight{
+    return ((self.numofPic - 1) / self.numPerRow + 1) * 130;
+}
+
 - (id)initWithData:(NSArray *)data{
     self = [super init];
     if (self){
         self = [[[NSBundle mainBundle]loadNibNamed:@"ChatCell" owner:self options:nil] objectAtIndex:0];
     }
     return self;
-}
-
--(NSUInteger) getHeight{
-    return ((self.numofPic - 1) / self.numPerRow + 1) * 130;
 }
 
 @end

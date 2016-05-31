@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "0879AF9E78A055F4C7B53DF608746C9D864E61C3",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "04A77F475913CB34A084C105CCA18C201F3F7F58" : 0,
+    "0879AF9E78A055F4C7B53DF608746C9D864E61C3" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "4FEA6844-BDE3-49C8-96B1-B36B0BDB8111",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "04A77F475913CB34A084C105CCA18C201F3F7F58" : "",
+    "0879AF9E78A055F4C7B53DF608746C9D864E61C3" : "ChatView\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "ChatView",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ChatView.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ixiao\/WeChat-by-storyboard.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "04A77F475913CB34A084C105CCA18C201F3F7F58"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:iChenwin\/TableViewCustom.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0879AF9E78A055F4C7B53DF608746C9D864E61C3"
+    }
+  ]
+}

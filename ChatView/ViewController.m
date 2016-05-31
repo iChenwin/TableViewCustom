@@ -15,8 +15,6 @@
 @end
 
 @implementation ViewController
-
-
 - (NSMutableArray *)heights{
     //将变量初始化放在getter函数中，可以使变量被调用时才创建，避免占用过多占用内存
     if (!_heights) {    
@@ -40,12 +38,9 @@
 
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     static NSString *CellIdentifier = @"CellIdentifier";
-    
     NSUInteger row = [indexPath row];
     NSDictionary *rowDict = [self.listUsers objectAtIndex:row];
-    
     ChatCell *cell = [[ChatCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier data:rowDict];
-    
     //新建tap手势
     UITapGestureRecognizer *tapGesture = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tapGesture:)];
     //设置点击次数和点击手指数
@@ -59,7 +54,6 @@
     
     return cell;
 }
-
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
     NSUInteger row = [indexPath row];
     if (self.heights.count > 0) {
@@ -68,15 +62,14 @@
     return 0;
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
 //轻击手势触发方法
 -(void)tapGesture:(id)sender
 {
     //导航至Detail页面
     [self.navigationController pushViewController:[[DetailViewController alloc] init] animated:YES];
+}
+- (void)didReceiveMemoryWarning {
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
 }
 @end
