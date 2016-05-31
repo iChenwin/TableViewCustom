@@ -24,8 +24,8 @@
                             </tableViewCell>
                         </prototypes>
                         <connections>
-                            <outlet property="dataSource" destination="Zha-sc-h6i" id="EGr-za-uXZ"/>
-                            <outlet property="delegate" destination="Zha-sc-h6i" id="O5i-PI-NKa"/>
+                            <outlet property="dataSource" destination="Zha-sc-h6i" id="tEF-RK-b74"/>
+                            <outlet property="delegate" destination="Zha-sc-h6i" id="vdp-fp-Tdz"/>
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Title" id="mfH-1B-XWW">
@@ -38,7 +38,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kEg-HZ-5R2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1165" y="403"/>
+            <point key="canvasLocation" x="1184" y="398"/>
         </scene>
         <!--关于-->
         <scene sceneID="PrX-J6-1Tl">
